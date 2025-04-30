@@ -12,9 +12,9 @@ workspace:
   location: /workspace
   resources:
     min_cpu: 4
+    min_mem: 8192
     min_gpu: 0
-    min_mem: 4096
-    gpu_mem: 1024
+    gpu_mem: 0
   model_collection: []
   data_collection: []
  
@@ -22,4 +22,5 @@ additional_dependencies:
   conda:
     - python>=3.10
     - pip
+    - paraview
   pip: []
