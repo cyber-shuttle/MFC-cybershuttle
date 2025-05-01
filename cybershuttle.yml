@@ -22,7 +22,10 @@ additional_dependencies:
   conda:
     - python=3.10
     - pip
+    - make
     - cmake
+    - compilers
+    - openmpi
     - wget
     - paraview
   pip: []
