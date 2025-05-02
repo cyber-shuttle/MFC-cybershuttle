@@ -9,7 +9,6 @@ project:
     - CISSE25
  
 workspace:
-  location: /workspace
   resources:
     min_cpu: 4
     min_mem: 8192
@@ -19,6 +18,7 @@ workspace:
   data_collection: []
  
 additional_dependencies:
+  modules: []
   conda:
     - python=3.10
     - pip
